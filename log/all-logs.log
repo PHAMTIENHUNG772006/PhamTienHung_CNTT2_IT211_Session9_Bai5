@@ -1,0 +1,224 @@
+2026-05-25T18:47:27.544+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : Starting Session9Bai1Application using Java 17.0.16 with PID 5096 (D:\RIKKEI\Java_Web_Service\Session10_TH\Session9_Bai1\build\classes\java\main started by Admin in D:\RIKKEI\Java_Web_Service\Session10_TH\Session9_Bai1)
+2026-05-25T18:47:27.549+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T18:47:27.622+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-25T18:47:27.623+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-25T18:47:28.335+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T18:47:28.357+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2026-05-25T18:47:28.810+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T18:47:28.822+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T18:47:28.823+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T18:47:28.875+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1252 ms
+2026-05-25T18:47:29.009+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T18:47:29.054+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25T18:47:29.488+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T18:47:29.515+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-25T18:47:29.763+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9400465
+2026-05-25T18:47:29.764+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-25T18:47:29.810+07:00  WARN 5096 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T18:47:29.823+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/session9?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: session9/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T18:47:30.119+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T18:47:30.128+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T18:47:30.189+07:00  WARN 5096 --- [Session9_Bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T18:47:30.462+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T18:47:30.470+07:00  INFO 5096 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : Started Session9Bai1Application in 3.433 seconds (process running for 3.944)
+2026-05-25T18:47:49.746+07:00  INFO 5096 --- [Session9_Bai1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25T18:47:49.747+07:00  INFO 5096 --- [Session9_Bai1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-25T18:47:49.748+07:00  INFO 5096 --- [Session9_Bai1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-25T18:47:49.827+07:00  WARN 5096 --- [Session9_Bai1] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type String is not present]
+2026-05-25T18:47:57.558+07:00  WARN 5096 --- [Session9_Bai1] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userId' for method parameter type String is not present]
+2026-05-25T18:48:26.793+07:00  INFO 5096 --- [Session9_Bai1] [http-nio-8080-exec-9] c.re.session9.service.FlashSaleService   : Đang xử lý mã: 12345 cho user: U001
+2026-05-25T18:49:24.383+07:00  INFO 5096 --- [Session9_Bai1] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T18:49:24.488+07:00  INFO 5096 --- [Session9_Bai1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T18:49:24.492+07:00  INFO 5096 --- [Session9_Bai1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T18:49:24.494+07:00  INFO 5096 --- [Session9_Bai1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-25T18:49:24.501+07:00  INFO 5096 --- [Session9_Bai1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-25T20:51:30.824+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : Starting Session9Bai1Application using Java 17.0.16 with PID 3384 (D:\RIKKEI\Java_Web_Service\Session9_Logging\Session9_Bai5\build\classes\java\main started by Admin in D:\RIKKEI\Java_Web_Service\Session9_Logging\Session9_Bai5)
+2026-05-25T20:51:30.827+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T20:51:30.862+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-25T20:51:30.862+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-25T20:51:31.333+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T20:51:31.347+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2026-05-25T20:51:31.818+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T20:51:31.826+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T20:51:31.826+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T20:51:31.858+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 995 ms
+2026-05-25T20:51:31.985+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T20:51:32.022+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25T20:51:32.361+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T20:51:32.390+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-25T20:51:32.587+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3850502c
+2026-05-25T20:51:32.588+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-25T20:51:32.639+07:00  WARN 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T20:51:32.654+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/session9?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: session9/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T20:51:32.939+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T20:51:32.945+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T20:51:33.060+07:00  WARN 3384 --- [Session9_Bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T20:51:33.436+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T20:51:33.441+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : Started Session9Bai1Application in 3.033 seconds (process running for 3.676)
+2026-05-25T20:52:04.202+07:00  INFO 3384 --- [Session9_Bai1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-05-25T20:52:04.209+07:00  INFO 3384 --- [Session9_Bai1] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T20:52:04.377+07:00  INFO 3384 --- [Session9_Bai1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T20:52:04.382+07:00  INFO 3384 --- [Session9_Bai1] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T20:52:04.385+07:00  INFO 3384 --- [Session9_Bai1] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-25T20:52:04.391+07:00  INFO 3384 --- [Session9_Bai1] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-25T20:52:04.461+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : Starting Session9Bai1Application using Java 17.0.16 with PID 3384 (D:\RIKKEI\Java_Web_Service\Session9_Logging\Session9_Bai5\build\classes\java\main started by Admin in D:\RIKKEI\Java_Web_Service\Session9_Logging\Session9_Bai5)
+2026-05-25T20:52:04.461+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T20:52:04.552+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T20:52:04.554+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-05-25T20:52:04.619+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T20:52:04.620+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T20:52:04.620+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T20:52:04.630+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 166 ms
+2026-05-25T20:52:04.682+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T20:52:04.708+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T20:52:04.708+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-25T20:52:04.722+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7330dcf8
+2026-05-25T20:52:04.722+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-25T20:52:04.723+07:00  WARN 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T20:52:04.724+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/session9?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: session9/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T20:52:04.741+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T20:52:04.741+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T20:52:04.782+07:00  WARN 3384 --- [Session9_Bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T20:52:04.959+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T20:52:04.962+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : Started Session9Bai1Application in 0.522 seconds (process running for 35.198)
+2026-05-25T20:52:04.964+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-25T20:52:06.362+07:00  INFO 3384 --- [Session9_Bai1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-05-25T20:52:06.364+07:00  INFO 3384 --- [Session9_Bai1] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T20:52:06.470+07:00  INFO 3384 --- [Session9_Bai1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T20:52:06.471+07:00  INFO 3384 --- [Session9_Bai1] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T20:52:06.471+07:00  INFO 3384 --- [Session9_Bai1] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-25T20:52:06.474+07:00  INFO 3384 --- [Session9_Bai1] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-05-25T20:52:06.527+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : Starting Session9Bai1Application using Java 17.0.16 with PID 3384 (D:\RIKKEI\Java_Web_Service\Session9_Logging\Session9_Bai5\build\classes\java\main started by Admin in D:\RIKKEI\Java_Web_Service\Session9_Logging\Session9_Bai5)
+2026-05-25T20:52:06.527+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T20:52:06.603+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T20:52:06.605+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-05-25T20:52:06.677+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T20:52:06.677+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T20:52:06.678+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T20:52:06.694+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 166 ms
+2026-05-25T20:52:06.738+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T20:52:06.755+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T20:52:06.755+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-05-25T20:52:06.764+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c3bb926
+2026-05-25T20:52:06.764+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-05-25T20:52:06.765+07:00  WARN 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T20:52:06.766+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/session9?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: session9/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T20:52:06.778+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T20:52:06.778+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T20:52:06.808+07:00  WARN 3384 --- [Session9_Bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T20:52:06.944+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T20:52:06.946+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] c.re.session9.Session9Bai1Application    : Started Session9Bai1Application in 0.434 seconds (process running for 37.181)
+2026-05-25T20:52:06.946+07:00  INFO 3384 --- [Session9_Bai1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-25T20:52:10.771+07:00  INFO 3384 --- [Session9_Bai1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25T20:52:10.771+07:00  INFO 3384 --- [Session9_Bai1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-25T20:52:10.772+07:00  INFO 3384 --- [Session9_Bai1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-25T20:52:26.101+07:00  WARN 3384 --- [Session9_Bai1] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-05-25T20:52:34.373+07:00 ERROR 3384 --- [Session9_Bai1] [http-nio-8080-exec-7] c.r.s.aspect.SystemFailureMonitorAspect  : Lỗi hệ thống tại phương thức createOrder: Đứt kết nối DB!
+2026-05-25T20:52:34.377+07:00 ERROR 3384 --- [Session9_Bai1] [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Đứt kết nối DB!] with root cause
+
+java.lang.RuntimeException: Đứt kết nối DB!
+	at com.re.session9.service.OrderService.createOrder(OrderService.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:63) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.7.jar:7.0.7]
+	at com.re.session9.service.OrderService$$SpringCGLIB$$0.createOrder(<generated>) ~[main/:na]
+	at com.re.session9.controller.OrderController.createOrder(OrderController.java:18) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
